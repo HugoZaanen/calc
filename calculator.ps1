@@ -5,7 +5,8 @@
     }catch{
         Write-Host Not a number
         return [string]$value
-    }     
+    }
+    write-host hello world
 }
 
 function calculate($operator){
